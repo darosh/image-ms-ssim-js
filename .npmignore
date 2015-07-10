@@ -11,4 +11,5 @@ temp/
 .gitignore
 .travis.yml
 
+gulpfile.js
 tslint.json
