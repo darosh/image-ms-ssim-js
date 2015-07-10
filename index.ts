@@ -68,7 +68,6 @@ module ImageMSSSIM {
 
 	/**
 	 * Entry point.
-	 * @throws new Error('Images have different sizes!')
 	 */
 	export function compare(image1:IImage,
 							image2:IImage,

@@ -1,3 +1,40 @@
+//
+// Copyright(c) Multimedia Signal Processing Group (MMSPG),
+//              Ecole Polytechnique Fédérale de Lausanne (EPFL)
+//              http://mmspg.epfl.ch
+//              Zhou Wang
+//              https://ece.uwaterloo.ca/~z70wang/
+// All rights reserved.
+// Author: Philippe Hanhart (philippe.hanhart@epfl.ch)
+//
+// Permission is hereby granted, without written agreement and without
+// license or royalty fees, to use, copy, modify, and distribute the
+// software provided and its documentation for research purpose only,
+// provided that this copyright notice and the original authors' names
+// appear on all copies and supporting documentation.
+// The software provided may not be commercially distributed.
+// In no event shall the Ecole Polytechnique Fédérale de Lausanne (EPFL)
+// be liable to any party for direct, indirect, special, incidental, or
+// consequential damages arising out of the use of the software and its
+// documentation.
+// The Ecole Polytechnique Fédérale de Lausanne (EPFL) specifically
+// disclaims any warranties.
+// The software provided hereunder is on an "as is" basis and the Ecole
+// Polytechnique Fédérale de Lausanne (EPFL) has no obligation to provide
+// maintenance, support, updates, enhancements, or modifications.
+//
+//
+// Original Matlab implementation from Nikolay Ponomarenko available from http://live.ece.utexas.edu/research/quality/.
+// Please refer to the following papers:
+// - Z. Wang, E.P. Simoncelli, and A.C. Bovik, "Multiscale structural
+//   similarity for image quality assessment," in IEEE Asilomar Conference
+//   on Signals, Systems and Computers, November 2003, vol. 2, pp. 1398–1402.
+//
+/**
+ * Based on:
+ * - C++ implementation https://github.com/Rolinh/VQMT/blob/master/src/MSSSIM.cpp
+ * - TypeScript implementation: https://github.com/darosh/image-ssim-js
+ */
 /// <reference path="node_modules/image-ssim/image-ssim.d.ts" />
 /// <reference path="node_modules/image-resize-linear/image-resize-linear.d.ts" />
 var SSIM = require('image-ssim');
