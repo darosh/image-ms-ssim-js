@@ -18,7 +18,6 @@ declare module ImageMSSSIM {
     }
     /**
      * Entry point.
-     * @throws new Error('Images have different sizes!')
      */
     function compare(image1: IImage, image2: IImage, windowSize?: number, K1?: number, K2?: number, luminance?: boolean, bitsPerComponent?: number): IResult;
 }

@@ -44,7 +44,6 @@ var ImageMSSSIM;
     'use strict';
     /**
      * Entry point.
-     * @throws new Error('Images have different sizes!')
      */
     function compare(image1, image2, windowSize, K1, K2, luminance, bitsPerComponent) {
         if (windowSize === void 0) { windowSize = 8; }
