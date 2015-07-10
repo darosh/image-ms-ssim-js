@@ -1,7 +1,7 @@
 {
-  "name": "ms-ssim",
+  "name": "image-ms-ssim",
   "description": "Image multi-scale structural similarity (MS-SSIM). In TypeScript/JavaScript. For browser/server.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Jan Forst",
     "email": "ensonador@gmail.com",
